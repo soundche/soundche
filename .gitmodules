@@ -1,0 +1,3 @@
+[submodule "templates/skin/soundche"]
+	path = templates/skin/soundche
+	url = git@github.com:spolischook/lstemplate-soundche.git
