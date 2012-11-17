@@ -4,3 +4,6 @@
 [submodule "plugins/twitt"]
 	path = plugins/twitt
 	url = git@github.com:spolischook/twitt.git
+[submodule "plugins/mainpreview"]
+	path = plugins/mainpreview
+	url = https://github.com/livestreet/lsplugin-mainpreview.git
