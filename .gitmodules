@@ -1,6 +1,6 @@
 [submodule "templates/skin/soundche"]
 	path = templates/skin/soundche
-	url = git@github.com:spolischook/lstemplate-soundche.git
+	url = git@github.com:soundche/lstemplate-soundche.git
 [submodule "plugins/twitt"]
 	path = plugins/twitt
 	url = git@github.com:spolischook/twitt.git
