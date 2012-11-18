@@ -13,3 +13,6 @@
 [submodule "plugins/topicsoundche"]
 	path = plugins/topicsoundche
 	url = git@github.com:soundche/lsplugin-topicsoundche.git
+[submodule "plugins/chdate"]
+	path = plugins/chdate
+	url = git@github.com:soundche/lsplugin-chdate.git
