@@ -7,3 +7,9 @@
 [submodule "plugins/mainpreview"]
 	path = plugins/mainpreview
 	url = git@github.com:soundche/lsplugin-mainpreview.git
+[submodule "plugins/setmebold"]
+	path = plugins/setmebold
+	url = git@github.com:soundche/lsplugin-setmebold.git
+[submodule "plugins/topicsoundche"]
+	path = plugins/topicsoundche
+	url = git@github.com:soundche/lsplugin-topicsoundche.git
