@@ -28,7 +28,7 @@ return array(
 	'blogs_search_title_hint' => 'Пошук за назвою',
 	'blogs_search_empty' => 'Пошук не дав результатів',
 	'blogs_title' => 'Назва',
-	'blogs_readers' => 'Читачів',
+	'blogs_readers' => 'Фанів',
 	'blogs_rating' => 'Рейтинг',
 	'blogs_owner' => 'Доглядач',
 	'blogs_personal_title' => 'Гурт ім.',
@@ -44,7 +44,7 @@ return array(
 	/**
 	 * Відмінювання
 	 */
-	'reader_declension' => 'читач;читачі;читачів',
+	'reader_declension' => 'фан;фани;фанів',
 	'topic_declension' => 'публікація;публікації;публікацій',
 	'draft_declension' => 'чернетка;чернетки;чернеток',
 	/**
@@ -56,13 +56,13 @@ return array(
 	/**
 	 * Користувачі гурту
 	 */
-	'blog_user_count' => 'підписників',
-	'blog_user_administrators' => 'Адміністратори',
+	'blog_user_count' => 'фанів',
+	'blog_user_administrators' => 'Засновники',
 	'blog_user_moderators' => 'Модератори',
 	'blog_user_moderators_empty' => 'Модераторів тут не було помічено',
 	'blog_user_readers' => 'Фани',
 	'blog_user_readers_all' => 'Усі фани групи',
-	'blog_user_readers_empty' => 'Читачів тут не було помічено',
+	'blog_user_readers_empty' => 'Фанів тут не було помічено',
 	/**
 	 * Голосування за гурт
 	 */
@@ -131,7 +131,7 @@ return array(
 	'blog_create_type_open' => 'Відкритий',
 	'blog_create_type_close' => 'Закритий',
 	'blog_create_type_open_notice' => 'Відкритий - до цього гурту може приєднатися будь-хто, публікації бачать усі',
-	'blog_create_type_close_notice' => 'Закритий - приєднання виключно за запрошеннями адміністрації, публікації бачать лише підписники',
+	'blog_create_type_close_notice' => 'Закритий - приєднання виключно за запрошеннями адміністрації, публікації бачать лише фани',
 	'blog_create_type_error' => 'Невідомий тип гурту',
 	'blog_create_rating' => 'Обмеження за рейтингом',
 	'blog_create_rating_notice' => 'Рейтинг, який потрібно мати користувачеві для того, аби публікувати до групи',
@@ -150,7 +150,7 @@ return array(
 	'blog_admin_users' => 'Користувачі',
 	'blog_admin_users_administrator' => 'адміністратор',
 	'blog_admin_users_moderator' => 'модератор',
-	'blog_admin_users_reader' => 'читач',
+	'blog_admin_users_reader' => 'фан',
 	'blog_admin_users_bun' => 'заблокований',
 	'blog_admin_users_current_administrator' => 'це ви &mdash; справжній адміністратор!',
 	'blog_admin_users_empty' => 'в блозі ніхто не перебуває',
@@ -177,8 +177,8 @@ return array(
 	'blog_user_already_invited' => 'Користувачеві %%login%% вже надіслано запрошення',
 	'blog_user_already_exists' => 'Користувач %%login%% вже перебуває у блозі',
 	'blog_user_already_reject' => 'Користувач %%login%% відхилив запрошення',
-	'blog_user_invite_title' => "Запрошення стати читачем гурту '%%blog_title%%'",
-	'blog_user_invite_text' => "Користувач %%login%% запрошує вас стати читачем закритого гурту '%%blog_title%%'.<br/><br/><a href='%%accept_path%%'>Прийняти</a> - <a href='%%reject_path%%'>Відхилити</a>",
+	'blog_user_invite_title' => "Запрошення стати фаном гурту '%%blog_title%%'",
+	'blog_user_invite_text' => "Користувач %%login%% запрошує вас стати фаном закритого гурту '%%blog_title%%'.<br/><br/><a href='%%accept_path%%'>Прийняти</a> - <a href='%%reject_path%%'>Відхилити</a>",
 	'blog_user_invite_already_done' => 'Ви вже перебуваєте у цьому блозі',
 	'blog_user_invite_accept' => 'Запрошення прийнято',
 	'blog_user_invite_reject' => 'Запрошення відхилено',
@@ -471,7 +471,7 @@ return array(
 	'people_menu_users' => 'Користувачі',
 	'people_menu_users_all' => 'Всі',
 	'people_menu_users_online' => 'В мережі',
-	'people_menu_users_new' => 'Не в мережі',
+	'people_menu_users_new' => 'Нові користувачі',
 	/**
 	 * Реєстрація
 	 */
@@ -855,7 +855,7 @@ return array(
 	'userfeed_subscribes_updated' => 'Налаштування стрічки збережено',
 	'userfeed_get_more' => 'Отримати ще публікацій',
 	'userfeed_title' => 'Стрічка',
-	'userfeed_settings_note_follow_blogs' => 'Оберіть гурти, які ви б хотіли читати',
+	'userfeed_settings_note_follow_blogs' => 'Оберіть гурти, за якими ви б хотіли слідкувати',
 	'userfeed_settings_note_follow_user' => 'Додайте людей, публікації яких ви б хотіли читати',
 	'userfeed_settings_note_follow_friend' => 'Оберіть друзів, публікації яких ви б хотіли читати',
 	'userfeed_no_subscribed_users' => 'Ви ще не підписалися на користувачів, публікації яких ви хочете бачити',
@@ -1056,11 +1056,11 @@ return array(
 	 */
 	'infobox_blog_create' => 'Створений',
 	'infobox_blog_topics' => 'Публікацій',
-	'infobox_blog_users' => 'Підписників',
+	'infobox_blog_users' => 'Фанів',
 	'infobox_blog_rating' => 'Рейтинг',
 	'infobox_blog_limit_rating' => 'Обмеження на публікування',
 	'infobox_blog_topic_last' => 'Остання публікація',
-	'infobox_blog_url' => 'Читати гурт',
+	'infobox_blog_url' => 'Стати фаном',
 	'infobox_blog_rss' => 'Підписатися на RSS',
 	/**
 	 * Створення
