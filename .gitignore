@@ -10,3 +10,10 @@
 /templates/skin/developer/
 /templates/skin/synio/
 /plugins/plugins.dat
+config/config.local.php
+config/config.test.php
+logs/*
+templates/cache/*
+templates/compiled/*
+tmp/*
+uploads/*
